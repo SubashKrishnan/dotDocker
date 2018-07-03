@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotdocker:
+    image: dotdocker
+    build:
+      context: .\DotDocker
+      dockerfile: Dockerfile
